@@ -1,6 +1,8 @@
 package devandroid.maddo.applistacurso.model;
 
 
+import androidx.annotation.NonNull;
+
 // OrdemDePagamento - pascalCase - CamelCase
 public class Pessoa {
 
@@ -12,8 +14,6 @@ public class Pessoa {
     private String sobreNome;
     private String cursoDesejado;
     private String telefoneContato;
-
-
 
     public Pessoa(){}
 
@@ -54,6 +54,7 @@ public class Pessoa {
     // To String - Para Textos - Para Strings de Caracteres
 
 
+    @NonNull
     @Override
     public String toString() {
         return "Pessoa{" +
