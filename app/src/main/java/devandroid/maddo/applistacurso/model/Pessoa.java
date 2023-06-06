@@ -12,7 +12,7 @@ public class Pessoa {
     private String sobreNome;
     private String cursoDesejado;
     private String telefoneContato;
-private  int idade;
+
 
 
     public Pessoa(){}
